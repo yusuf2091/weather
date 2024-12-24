@@ -1,0 +1,99 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: darkgrey;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .card{
+    background: linear-gradient(45deg,blue,indigo);
+    width: ;
+    max-width: 500px;
+    color: white;
+    border-radius: 10px;
+}
+.search{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    width: 90%;
+    position: relative;
+}
+.search input{
+    height: 40px;
+    border: none;
+    padding-left: 15px;
+    outline: none;
+    border-radius: 30px;
+    width: 400px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.search input::placeholder{
+    
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+.search button{
+    height: 45px;
+    width: 45px;
+    border: 0;
+    outline: 0;
+    border-radius: 30px;
+    margin-bottom:0px;
+    position: absolute;
+    right: 0;
+    top: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.search button:hover{
+    height: 48px;
+    width: 48px;
+    transition: 0.5s ease;
+    
+}
+button img{
+    height: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.weather .clouds{
+    text-align: center;
+}
+.weather .clouds img{
+    height: 100px;
+
+}
+.humidity-wind{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+.humidity-wind .humid,.wind-speed{
+    display: flex;
+    justify-content: space-between;
+}
+.humid div{
+    margin-left: 10px;
+}
+.wind-speed div{
+    margin-right: 10px;
+}
+p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.humidity-wind img{
+    height: 80px;
+}
